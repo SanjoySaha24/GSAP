@@ -15,3 +15,18 @@
 //     delay:2,
 // })
 
+
+gsap.from(".nav h3",{
+    y: -50,
+    opacity:0,
+    delay:0.6,
+    duration:2,
+    stagger:1,
+})
+
+gsap.from(".main h1",{
+    x:-500,
+    opacity:0,
+    duration:0.8,
+    // delay:4,
+})
